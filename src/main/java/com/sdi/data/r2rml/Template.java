@@ -14,8 +14,6 @@ public class Template {
 
     private ArrayList<Column> columns;
 
-    private TermType termType;
-
 
     public String getIri() {
         return iri;
@@ -37,15 +35,6 @@ public class Template {
     public void setColumns(Query query) {
         setColumns(query.getColumns());
     }
-
-    public TermType getTermType() {
-        return termType;
-    }
-
-    public void setTermType(TermType termType) {
-        this.termType = termType;
-    }
-
 
 
 }

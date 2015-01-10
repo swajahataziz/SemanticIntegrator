@@ -15,7 +15,14 @@ public interface TermMap {
 */
 
 
+    public void setTermType(TermType termType);
+
     public TermType getTermType();
+
+    public void setTermMapType (TermMapType termMapType);
+
+    public TermMapType getTermMapType();
+
 
 
 }

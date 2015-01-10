@@ -6,4 +6,5 @@ package com.sdi.data.r2rml;
 public class PredicateMap {
 
 
+
 }
